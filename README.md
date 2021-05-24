@@ -10,7 +10,11 @@ The purpose of this analysis is to assist our client, Maria, by aggregating and 
 ### Effect of data replacement on district summary
 Please see the below original district summary.
 
+![original_district_summary](original_district_summary.png)
+
 Please see the below new district summary after score replacement. 
+
+![new_district_summary](new_district_summary.png)
 
 * no change in "Total Schools", "Total Budget" 
 * no change in "Total Students" because replacing scores with NaNs does not mean that the rows containing the ninth graders' data are removed from the dataset 
@@ -23,7 +27,11 @@ Please see the below new district summary after score replacement.
 ### Effect of data replacement on school summary
 Please see the below original school summary.
 
+![original_school_summary](original_school_summary.png)
+
 Please see the below new school summary after score replacement.
+
+![new_school_summary](new_school_summary.png)
 
 * no change in "Total Schools", "Total Budget", "Total Students", "Per Student Budget"
 * "Average Math Score" and "Average Reading Score" experienced a slight decrease after score replacement
@@ -37,9 +45,15 @@ Please see the below new school summary after score replacement.
   * however, THS still not in the bottom five schools in the district after score replacement 
 
 ### Effect of data replacement on math and reading scores by grade
-Please see the below original scores by grade.
+Please see the below original math and reading scores by grade.
+
+![original_math_bygrade](original_math_bygrade.png)
+![original_reading_bygrade](original_reading_bygrade.png)
 
 Please see the below new scores by grade after score replacement.
+
+![new_math_bygrade](new_math_bygrade.png)
+![new_reading_bygrade](new_reading_bygrade.png)
 
 * for both math and reading scores, no change in grades 10 to 12 for Thomas High School
   * all other schools in the district experienced no changes
